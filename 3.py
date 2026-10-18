@@ -1,7 +1,18 @@
 '''
-Given a list and a number k, rotate the list to the right by k steps.
-
+Change the list
+ 
+1. Add "grape" to the end of the list.
+2. Change "banana" to "kiwi".
+3. Print the list.
+ 
 Example:
-    Input:  [1, 2, 3, 4, 5], k = 2
-    Output: [4, 5, 1, 2, 3]
+    fruits = ["apple", "banana", "cherry"]
+    Output:
+        ['apple', 'kiwi', 'cherry', 'grape']
+ 
+Hint:
+    fruits.append("grape")   adds "grape" to the end
+    fruits[1] = "kiwi"       replaces the item at position 1
 '''
+ 
+fruits = ["apple", "banana", "cherry"]
